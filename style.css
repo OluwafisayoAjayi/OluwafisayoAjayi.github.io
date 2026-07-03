@@ -253,3 +253,15 @@ footer {
   font-weight: bold;
   color: #6b4e2e;
 }
+
+.welcome-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.intro-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 520px;
+}
