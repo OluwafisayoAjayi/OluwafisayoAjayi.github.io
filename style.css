@@ -265,3 +265,11 @@ footer {
   line-height: 1.6;
   max-width: 520px;
 }
+
+.news-img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
