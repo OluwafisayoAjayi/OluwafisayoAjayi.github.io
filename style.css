@@ -231,24 +231,7 @@ footer {
 .news-card a:hover {
   background: #4f381f;
 }
-.featured-dashboard-home {
-  margin-top: 60px;
-}
 
-.featured-dashboard-home iframe {
-  margin-top: 24px;
-  width: 100%;
-  height: 650px;
-  border: 1px solid #ddd2c2;
-  border-radius: 16px;
-  background: white;
-}
-
-@media (max-width: 700px) {
-  .featured-dashboard-home iframe {
-    height: 520px;
-  }
-}
 .cv-nav {
   font-weight: bold;
   color: #6b4e2e;
@@ -272,4 +255,44 @@ footer {
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 1rem;
+}
+.page-header {
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+}
+
+.page-header h1 {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.page-header p {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.abstract-box {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #e4ded2;
+  border-radius: 14px;
+  background: #faf8f3;
+  padding: 14px 18px;
+}
+
+.abstract-box summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #6b4e2e;
+  font-size: 15px;
+}
+
+.abstract-box summary:hover {
+  color: #4f381f;
+}
+
+.abstract-box p {
+  margin-top: 14px;
+  line-height: 1.7;
+  font-size: 15.5px;
 }
