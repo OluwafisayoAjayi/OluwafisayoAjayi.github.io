@@ -199,3 +199,35 @@ footer {
     height: 500px;
   }
 }
+
+.research-card,
+.news-card {
+  background: #fffdf8;
+  border: 1px solid #e4ded2;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.research-card h3,
+.news-card h3 {
+  margin-top: 0;
+}
+
+.research-card a,
+.news-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #6b4e2e;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.research-card a:hover,
+.news-card a:hover {
+  background: #4f381f;
+}
